@@ -1,10 +1,12 @@
+using NLog;
 using rverse.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 builder.Services.ConfigureCors();
+builder.Services.ConfigureLoggerService();
 
 builder.Services.AddControllers()
     .AddApplicationPart(typeof(rverse.Presentation.AssemblyReference).Assembly);

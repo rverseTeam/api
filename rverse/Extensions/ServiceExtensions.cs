@@ -1,4 +1,7 @@
-﻿namespace rverse.Extensions;
+﻿using rverse.Contracts;
+using rverse.Services.Logging;
+
+namespace rverse.Extensions;
 
 public static class ServiceExtensions
 {
@@ -10,4 +13,7 @@ public static class ServiceExtensions
                 .AllowAnyMethod()
                 .AllowAnyHeader());
         });
+
+    public static void ConfigureLoggerService(this IServiceCollection services) =>
+        services.AddSingleton<ILoggerManager, LoggerManager>();
 }
