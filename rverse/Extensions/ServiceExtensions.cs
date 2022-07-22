@@ -1,4 +1,7 @@
-﻿using rverse.Contracts;
+﻿// Copyright (c) 2022 rverse Contributors (https://rverse.club). Licensed under the Apache License, Version 2.0.
+// See the LICENCE file in the repository root for full licence text.
+
+using rverse.Contracts;
 using rverse.Services.LoggingService;
 
 namespace rverse.Extensions;

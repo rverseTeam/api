@@ -5,11 +5,16 @@ VisualStudioVersion = 17.3.32708.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rverse", "rverse\rverse.csproj", "{E8C04921-93C5-4F6E-9BB2-0D5686122062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Presentation", "rverse.Presentation\rverse.Presentation.csproj", "{091E9A5D-FB04-4CE9-95D1-F470CC92DFB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rverse.Presentation", "rverse.Presentation\rverse.Presentation.csproj", "{091E9A5D-FB04-4CE9-95D1-F470CC92DFB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Contracts", "rverse.Contracts\rverse.Contracts.csproj", "{6D555BB8-57CA-40BD-A008-A30272C18ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rverse.Contracts", "rverse.Contracts\rverse.Contracts.csproj", "{6D555BB8-57CA-40BD-A008-A30272C18ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Services.LoggingService", "rverse.Services\LoggingService\rverse.Services.LoggingService.csproj", "{193B958C-E92C-43CE-9D77-83F6AAD65709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rverse.Services.LoggingService", "rverse.Services\LoggingService\rverse.Services.LoggingService.csproj", "{193B958C-E92C-43CE-9D77-83F6AAD65709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FCFB6F13-262C-4BAF-8512-BAA9159DAE52}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
