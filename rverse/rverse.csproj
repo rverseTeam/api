@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\rverse.Presentation\rverse.Presentation.csproj" />
-    <ProjectReference Include="..\rverse.Services\Logging\rverse.Services.Logging.csproj" />
+    <ProjectReference Include="..\rverse.Services\LoggingService\rverse.Services.LoggingService.csproj" />
   </ItemGroup>
 
 </Project>

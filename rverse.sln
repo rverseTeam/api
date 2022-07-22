@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Presentation", "rver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Contracts", "rverse.Contracts\rverse.Contracts.csproj", "{6D555BB8-57CA-40BD-A008-A30272C18ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Services.Logging", "rverse.Services\Logging\rverse.Services.Logging.csproj", "{193B958C-E92C-43CE-9D77-83F6AAD65709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rverse.Services.LoggingService", "rverse.Services\LoggingService\rverse.Services.LoggingService.csproj", "{193B958C-E92C-43CE-9D77-83F6AAD65709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
 ﻿using rverse.Contracts;
-using rverse.Services.Logging;
+using rverse.Services.LoggingService;
 
 namespace rverse.Extensions;
 

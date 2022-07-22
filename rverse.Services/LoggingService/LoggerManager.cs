@@ -1,7 +1,7 @@
 ﻿using NLog;
 using rverse.Contracts;
 
-namespace rverse.Services.Logging;
+namespace rverse.Services.LoggingService;
 
 public class LoggerManager : ILoggerManager
 {
